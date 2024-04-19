@@ -1,0 +1,40 @@
+/* Home.module.css */
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ventaglioSx {
+  width: 1000px;
+  position: absolute;
+  left: 5px;
+  top: 20px;
+  transform: translateY(-10%);
+  z-index: 10;
+}
+
+.ventaglioDx {
+  width: 1000px;
+  position: absolute;
+  right: 5px;
+  top: 20px;
+  transform: translateY(-10%);
+  z-index: 10;
+}
+
+.girlImage {
+  z-index: 1; /* Assicura che l'immagine della ragazza sia al di sopra dei ventagli */
+}

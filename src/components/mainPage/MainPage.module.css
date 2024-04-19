@@ -1,0 +1,19 @@
+/* mainPageStyles.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Tre colonne con larghezza minima di 250px */
+  grid-gap: 50px;
+  list-style: none;
+  padding: 50px;
+
+}
+
+.container li {
+  width: 100%;
+}

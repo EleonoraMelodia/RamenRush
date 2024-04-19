@@ -1,0 +1,25 @@
+.container{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.container li{
+    background-color: rgba(255, 255, 255, 0.44);
+    color: black;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.container span{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 200px;
+    background-color: rgba(0, 0, 0, 0.345);
+    position: absolute;
+}

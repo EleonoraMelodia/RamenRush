@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Shoyu Ramen",
+    "price": 9.99,
+    "description": "Traditional Japanese ramen with soy sauce-based broth, topped with sliced pork, bamboo shoots, and green onions.",
+    "image": "../../src/assets/ramen1.png",
+    "type": "ramen"
+  },
+  {
+    "id": 2,
+    "name": "Spicy Miso Ramen",
+    "price": 10.49,
+    "description": "Ramen with rich miso-flavored broth, infused with spicy chili oil and garnished with ground pork, corn, and bean sprouts.",
+    "image": "../../src/assets/ramen2.png",
+    "type": "ramen"
+  },
+  {
+    "id": 3,
+    "name": "Tonkotsu Black Ramen",
+    "price": 11.99,
+    "description": "Indulge in this creamy and rich pork bone broth ramen, complemented by black garlic oil, soft-boiled egg, and wood ear mushrooms.",
+    "image": "../../src/assets/ramen4pork.png",
+    "type": "ramen"
+  },
+  {
+    "id": 4,
+    "name": "Vegetarian Shio Ramen",
+    "price": 9.49,
+    "description": "A light and flavorful ramen featuring clear salt-based broth, with a variety of fresh vegetables such as spinach, cabbage, and carrots.",
+    "image": "../../src/assets/ramen6vegan.png",
+    "type": "ramen"
+  },
+  {
+    "id": 5,
+    "name": "Chicken Paitan Ramen",
+    "price": 10.99,
+    "description": "Enjoy this hearty and satisfying chicken-based ramen with a creamy white broth, served with tender chicken slices, narutomaki, and nori.",
+    "image": "../../src/assets/ramen5chicken.png",
+    "type": "ramen"
+  },
+  {
+    "id": 6,
+    "name": "Seafood Shoyu Ramen",
+    "price": 12.49,
+    "description": "Delight your taste buds with this ocean-inspired ramen featuring a savory soy sauce broth, packed with assorted seafood such as shrimp, clams, and squid.",
+    "image": "../../src/assets/ramen3fish.png",
+    "type": "ramen"
+  },
+  {
+    "id": 7,
+    "name": "Sesame Tan Tan Ramen",
+    "price": 11.99,
+    "description": "Experience the bold flavors of this spicy sesame-infused ramen, topped with ground pork, bok choy, and a sprinkle of toasted sesame seeds.",
+    "image": "../../src/assets/ramen9beef.png",
+    "type": "ramen"
+  },
+  {
+    "id": 8,
+    "name": "Kimchi Ramen",
+    "price": 10.99,
+    "description": "Savor the tangy and spicy flavors of kimchi in this unique ramen dish, featuring a hearty broth with kimchi, pork belly, and scallions.",
+    "image": "../../src/assets/ramen7tempura.png",
+    "type": "ramen"
+  },
+  {
+    "id": 9,
+    "name": "Curry Laksa Ramen",
+    "price": 12.99,
+    "description": "Embark on a culinary journey with this Malaysian-inspired curry laksa ramen, boasting a fragrant coconut curry broth, shrimp, tofu puffs, and rice noodles.",
+    "image": "../../src/assets/ramen8bacon.png",
+    "type": "ramen"
+  },
+  {
+    "id": 10,
+    "name": "Vegan Ramen Bowl",
+    "price": 10.49,
+    "description": "A plant-based delight featuring a rich and flavorful vegetable broth, accompanied by tofu, shiitake mushrooms, and baby bok choy.",
+    "image": "../../src/assets/ramen10.png",
+    "type": "ramen"
+  },
+  {
+    "id": 11,
+    "name": "Pork Bao",
+    "price": 3.99,
+    "description": "Delicious bao filled with slow-cooked pork and oriental spices.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "bao"
+  },
+  {
+    "id": 12,
+    "name": "Vegetarian Bao",
+    "price": 3.49,
+    "description": "Vegetarian bao filled with shiitake mushrooms, carrots, and caramelized onions.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "bao"
+  },
+  {
+    "id": 13,
+    "name": "Teriyaki Chicken Bao",
+    "price": 4.49,
+    "description": "Bao with succulent teriyaki chicken, onion, and sweet sauce.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "bao"
+  },
+  {
+    "id": 14,
+    "name": "Beef Bao",
+    "price": 4.99,
+    "description": "Bao with marinated beef steamed with crunchy vegetables.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "bao"
+  },
+  {
+    "id": 15,
+    "name": "Fish Bao",
+    "price": 5.49,
+    "description": "Bao with delicious fresh fish, cabbage salad, and lime sauce.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "bao"
+  },
+  {
+    "id": 16,
+    "name": "Shrimp Bao",
+    "price": 5.99,
+    "description": "Bao with fresh shrimp, pickled cucumbers, and spicy sauce.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+   
+
+ "type": "bao"
+  },
+  {
+    "id": 17,
+    "name": "Tofu Bao",
+    "price": 4.29,
+    "description": "Bao with crispy tofu, mixed vegetables, and sweet and sour sauce.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "bao"
+  },
+  {
+    "id": 18,
+    "name": "Bacon Bao",
+    "price": 5.79,
+    "description": "Bao with smoked bacon, hard-boiled eggs, and marinated red onion.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "bao"
+  },
+  {
+    "id": 19,
+    "name": "Curry Bao",
+    "price": 4.99,
+    "description": "Bao with curry chicken, roasted peppers, and red onion.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "bao"
+  },
+  {
+    "id": 20,
+    "name": "Salmon Bao",
+    "price": 6.49,
+    "description": "Bao with fresh salmon, avocado, and sesame sauce.",
+    "image": "https://images.pexels.com/photos/14469643/pexels-photo-14469643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "bao"
+  },
+  {
+    "id": 21,
+    "name": "Green Tea Mochi",
+    "price": 2.99,
+    "description": "Traditional Japanese mochi with green tea filling.",
+    "image": "../../src/assets/greenMochi.png",
+    "type": "mochi"
+  },
+  {
+    "id": 22,
+    "name": "Sesame Mochi",
+    "price": 3.49,
+    "description": "Rice flour-wrapped mochi with sesame paste filling.",
+    "image": "https://images.pexels.com/photos/8963453/pexels-photo-8963453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "mochi"
+  },
+  {
+    "id": 23,
+    "name": "Azuki Bean Mochi",
+    "price": 3.29,
+    "description": "Classic mochi with sweet red bean paste filling.",
+    "image": "../../src/assets/beanMochi.png",
+    "type": "mochi"
+  },
+  {
+    "id": 24,
+    "name": "Coconut Mochi",
+    "price": 3.99,
+    "description": "Soft mochi with creamy coconut flavor filling.",
+    "image": "https://images.pexels.com/photos/8963453/pexels-photo-8963453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "mochi"
+  },
+  {
+    "id": 25,
+    "name": "Mango Mochi",
+    "price": 4.49,
+    "description": "Sweet mochi with fresh mango pulp filling.",
+    "image": "https://images.pexels.com/photos/8963453/pexels-photo-8963453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "mochi"
+  },
+  {
+    "id": 26,
+    "name": "Strawberry Mochi",
+    "price": 4.29,
+    "description": "Rice flour-wrapped mochi with strawberry cream filling.",
+    "image": "https://images.pexels.com/photos/8963453/pexels-photo-8963453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "mochi"
+  },
+  {
+    "id": 27,
+    "name": "Pistachio Mochi",
+    "price": 4.79,
+    "description": "Mochi with creamy pistachio flavored filling.",
+    "image": "https://images.pexels.com/photos/8963453/pexels-photo-8963453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "mochi"
+  },
+  {
+    "id": 28,
+    "name": "Chocolate Mochi",
+    "price": 4.99,
+    "description": "Rice flour-wrapped mochi with dark chocolate cream filling.",
+    "image": "https://images.pexels.com/photos/8963453/pexels-photo-8963453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "mochi"
+  },
+  {
+    "id": 29,
+    "name": "Salted Caramel Mochi",
+    "price": 5.49,
+    "description": "Mochi with creamy salted caramel filling.",
+    "image": "https://images.pexels.com/photos/8963453/pexels-photo-8963453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "type": "mochi"
+  },
+  {
+    "id": 30,
+    "name": "Lemon Mochi",
+    "price": 4.79,
+    "description":
+
+ "Rice flour-wrapped mochi with lemon cream filling.",
+    "image": "../../src/assets/",
+    "type": "mochi"
+  },
+  {
+    "id": 31,
+    "name": "Pear and Honey Iced Tea",
+    "description": "Cold green tea with fresh pear juice and natural sweetness of honey.",
+    "type": "drinks",
+    "image": "../../src/assets/thefreddopera.png",
+    "price": 2.99
+  },
+  {
+    "id": 32,
+    "name": "Zhujiang Beer",
+    "description": "A Chinese lager beer with a perfect balance of sweetness and bitterness.",
+    "type": "drinks",
+    "image": "../../src/assets/birrablond3.png",
+    "price": 4.49
+  },
+  {
+    "id": 33,
+    "name": "Lotus Flower Iced Tea",
+    "description": "Cold green tea flavored with lotus flower for a floral and refreshing taste.",
+    "type": "drinks",
+    "image": "../../src/assets/thefioridiloto.png",
+    "price": 3.29
+  },
+  {
+    "id": 34,
+    "name": "Pearl River Beer",
+    "description": "A light and refreshing beer, produced in Guangdong Province, China.",
+    "type": "drinks",
+    "image": "../../src/assets/birrablond2.png",
+    "price": 3.99
+  },
+  {
+    "id": 35,
+    "name": "Strawberry and Basil Iced Tea",
+    "description": "Cold green tea with fresh strawberry pulp and basil leaves for a touch of freshness.",
+    "type": "drinks",
+    "image": "../../src/assets/thefragola.png",
+    "price": 3.49
+  },
+  {
+    "id": 36,
+    "name": "Red Star Beer",
+    "description": "Dark and robust beer, with a malty and slightly caramelized flavor.",
+    "type": "drinks",
+    "image": "../../src/assets/redbeer.png",
+    "price": 4.79
+  },
+  {
+    "id": 37,
+    "name": "Melon and Mint Flavored Water",
+    "description": "Fresh water with melon cubes and mint leaves for a refreshing and fragrant drink.",
+    "type": "drinks",
+    "image": "../../src/assets/acquamelone.png",
+    "price": 1.99
+  },
+  {
+    "id": 38,
+    "name": "Blackcurrant and Lemon Iced Tea",
+    "description": "Cold green tea with blackcurrant juice and a splash of lemon for a fruity and citrusy flavor.",
+    "type": "drinks",
+    "image": "../../src/assets/theribesnero.png",
+    "price": 3.79
+  },
+  {
+    "id": 39,
+    "name": "Lao Shan Beer",
+    "description": "Craft Chinese beer, made with pure spring water from the mountains of Lao Shan.",
+    "type": "drinks",
+    "image": "../../src/assets/birrablond1.png",
+    "price": 5.29
+  },
+  {
+    "id": 40,
+    "name": "Lemon and Ginger Iced Tea",
+    "description": "Cold green tea with fresh lemon juice and a spicy note of ginger.",
+    "type": "drinks",
+    "image": "../../src/assets/tezenzero.png",
+    "price": 2.49
+  }
+]

@@ -1,0 +1,19 @@
+
+.cloud{
+    width: 100px;
+    animation-name: floatCloud ;
+     animation: floatCloud 4s linear infinite;
+     
+}
+
+@keyframes floatCloud {
+        0% {
+            transform: translateX(-30%);
+        }
+        50% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-30%);
+        }
+    }
