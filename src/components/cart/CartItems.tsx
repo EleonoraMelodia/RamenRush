@@ -11,7 +11,7 @@ const CartItems = ({
   return (
     <li className="cart-item">
       <p>
-        {name} - {quantity}  x  {currencyFormatter.format(price)}
+        {name} - {quantity} x {currencyFormatter.format(price)}
       </p>
       <p className="cart-item-actions">
         <button onClick={handleDecrease}> - </button>

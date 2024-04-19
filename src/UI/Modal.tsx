@@ -4,9 +4,10 @@ import { createPortal } from "react-dom";
 interface ModalProps {
   children: ReactNode;
   open: boolean;
-  onClose?: () => void;
+  onClose?: boolean | Function;
   className?: string;
 }
+
 
 const Modal: React.FC<ModalProps> = ({ children, open, onClose, className = "" }) => {
   const dialog = useRef<HTMLDialogElement>(null);

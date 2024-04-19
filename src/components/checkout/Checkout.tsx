@@ -4,13 +4,10 @@ import Input from "../../UI/Input";
 import UserProgressContext from "../store/UserProgressContext";
 import Button from "../../UI/Button";
 import { CartContext } from "../store/CartContext";
-import useHttp from "../../customHooks/useHttp";
-import Error from "../../UI/Error";
-import errorImg from "../../assets/orderDropped.png";
 import Paypal from "../Paypal";
 import { currencyFormatter } from "../../util/priceFormatter";
 
-interface FormDataEntry {
+/* interface FormDataEntry {
   [key: string]: string | number;
 }
 
@@ -20,14 +17,14 @@ const configRequestObj = {
     "Content-Type": "application/json",
   },
 };
-
+ */
 const Checkout = () => {
   const [payment, setPayment] = useState<boolean>(false);
 
-  const { data, error, isLoading, sendRequest } = useHttp(
-    "http://localhost:3000/ords",
+  /* const { data, error, isLoading, sendRequest } = useHttp(
+    "http://localhost:3000/orders",
     configRequestObj
-  );
+  ); */
 
   const progressCtx = useContext(UserProgressContext);
   const cartCtx = useContext(CartContext);
@@ -45,7 +42,11 @@ const Checkout = () => {
     progressCtx.closeCheckout();
   };
 
-  const handleOrderSubmit = (event: FormEvent) => {
+  const handlePayment = () => {
+    setPayment(true)
+  }
+
+/*   const handleOrderSubmit = (event: FormEvent) => {
     event.preventDefault();
 
     const formData = new FormData(event.currentTarget as HTMLFormElement);
@@ -68,7 +69,7 @@ const Checkout = () => {
 
     sendRequest(JSON.stringify(orderData));
     setPayment(true);
-  };
+  }; */
 
   return (
     <>
@@ -77,7 +78,7 @@ const Checkout = () => {
           <Paypal />
           <Button onClick={handleCheckoutClosing}>Close</Button>
         </Modal>
-      ) : (
+      ) :/*  (
         <>
           {error ? (
             <Error
@@ -85,12 +86,12 @@ const Checkout = () => {
               title="Sorry, order not sent"
               message={error}
             />
-          ) : (
+          ) : */ (
             <Modal
-              open={progressCtx.progress === "checkout" && !error}
+              open={progressCtx.progress === "checkout"}
               onClose={handleOnCloseModal}
             >
-              <form onSubmit={handleOrderSubmit}>
+              <form /* onSubmit={handleOrderSubmit} */>
                 <h2>Checkout</h2>
                 <p>Total amount: {currencyFormatter.format(totalPrice)}</p>
 
@@ -103,22 +104,17 @@ const Checkout = () => {
                 </div>
 
                 <p className="modal-actions">
-                  {isLoading ? (
-                    <span>Wait for the order...</span>
-                  ) : (
+                 
                     <>
                       <Button onClick={handleCheckoutClosing}>Close</Button>
-                      <Button type="submit">Pay</Button>
+                      <Button onClick={handlePayment}>Pay</Button>
                     </>
-                  )}
+                  
                 </p>
               </form>
             </Modal>
           )}
         </>
       )}
-    </>
-  );
-};
 
 export default Checkout;

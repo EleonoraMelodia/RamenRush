@@ -25,7 +25,7 @@ const Cart = () => {
   return (
     <Modal
       className="cart"
-      close={progressCtx.progress === ""}
+      onClose={progressCtx.progress === ""}
       open={progressCtx.progress === "cart"}
     >
       <h1>Your Ramen cart</h1>
@@ -45,9 +45,7 @@ const Cart = () => {
       </ul>
       <h3> Total price: {currencyFormatter.format(totalPrice)} </h3>
       <p className="modal-actions">
-        <Button textOnly onClick={handleClosingCart}>
-          Close
-        </Button>
+        <Button onClick={handleClosingCart}>Close</Button>
         {cartCtx.items.length > 0 && (
           <Button onClick={handleOpenCheckout}> Checkout </Button>
         )}

@@ -36,7 +36,7 @@ if (!Array.isArray(orderData.items) || orderData.items.length === 0) {
 }
 
 
-  if (
+/*   if (
     orderData.customer.email === null ||
     !orderData.customer.email.includes('@') ||
     orderData.customer.name === null ||
@@ -53,7 +53,7 @@ if (!Array.isArray(orderData.items) || orderData.items.length === 0) {
         'Missing data: Email, name, street, postal code or city is missing.',
     });
   }
-
+ */
   const newOrder = {
     ...orderData,
    id: Math.floor(Math.random() * 1000).toString(),
