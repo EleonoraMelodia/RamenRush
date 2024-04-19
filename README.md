@@ -31,7 +31,7 @@ Ramen Rush is a web application built with React and TypeScript, offering a simu
 
 ## Development Status
 
-This project is currently under development. Planned improvements include implementation of media queries for responsiveness and enhancement of the payment simulation feature.
+This project is currently under development. It currently relies on a mock database with JSON files. In the future, there are plans to implement a database using Node.js for better data management and scalability. Planned improvements also include implementation of media queries for responsiveness and enhancement of the payment simulation feature. Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
 ## Contributing
 
