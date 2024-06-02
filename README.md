@@ -24,8 +24,6 @@ Ramen Rush is a web application built with React and TypeScript, offering a simu
 5. In another shell, run `npm run dev` to start the frontend development server.
 
 ## Usage
-
-- Visit the deployed application.
 - Browse the menu and select desired dishes.
 - Place orders and enjoy the virtual Japanese dining experience.
 
